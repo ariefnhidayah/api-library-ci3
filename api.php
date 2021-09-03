@@ -4,7 +4,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Api {
 
-    private $apiUrl = 'http://api.com';
+    private $apiUrl = 'http://api.com'; // INSERT YOUR BASE API URL
 
     public function post($url, $data = array(), $headers = array()) {
         $url = $this->apiUrl . $url;
