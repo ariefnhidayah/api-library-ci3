@@ -4,7 +4,7 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Api {
 
-    private $apiUrl = 'http://api.com'; // PRODUCTION
+    private $apiUrl = 'http://api.com';
 
     public function post($url, $data = array(), $headers = array()) {
         $url = $this->apiUrl . $url;
